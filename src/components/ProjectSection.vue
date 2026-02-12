@@ -46,7 +46,7 @@
 
 <script setup>
 import untirta from '@/assets/image/dokumentasiuntirta.png';
-import pinus from '@/assets/image/dokumentasipinus.png';
+import pinus from '@/assets/image/dokumentasiPinus.png';
 import urban from '@/assets/image/dokumentasiUrban.png';
 import moya from '@/assets/image/dokumentasiMoya.png';
 import tkcm from '@/assets/image/dokumentasiTkcm.png';
