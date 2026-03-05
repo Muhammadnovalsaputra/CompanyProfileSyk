@@ -22,7 +22,7 @@
             <a class="nav-link" :class="{ active: activeSection === '#legalitySection' }" href="#legalitySection" @click="setActive('#legalitySection')">Legalitas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: activeSection === '#service' }" href="#service" @click="setActive('#service')">Service</a>
+            <a class="nav-link" :class="{ active: activeSection === '#service' }" href="#services-and-gallery" @click="setActive('#service')">Service</a>
           </li>
           <li class="nav-item">
             <a class="btn btn-warning rounded-pill px-4 fw-bold shadow-sm" :class="{ 'btn-active': activeSection === '#contactSection' }" href="#contactSection" @click="setActive('#contactSection')">Kontak</a>

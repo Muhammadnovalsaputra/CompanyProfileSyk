@@ -3,9 +3,8 @@
   <HeroSection />
   <AboutSection />
   <OrganitationSection />
-  <SafetySection />
   <LegalitySection />
-  <ToolDocumentationSection />
+  <SafetySection />
   <ProjectSection />
   <SocialSection />
   <ServiceSection />
@@ -21,7 +20,6 @@ import AboutSection from './components/AboutSection.vue'
 import OrganitationSection from './components/OrganitationSection.vue'
 import SafetySection from './components/SafetySection.vue'
 import LegalitySection from './components/LegalitySection.vue'
-import ToolDocumentationSection from './components/ToolDocumentationSection.vue'
 import ProjectSection from './components/ProjectSection.vue'
 import SocialSection from './components/SocialSection.vue'
 import ServiceSection from './components/ServiceSection.vue'

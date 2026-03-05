@@ -34,6 +34,8 @@ import familyGathering from '@/assets/image/gathering.jpeg';
 import baktiSosial from '@/assets/image/bakso2.jpeg';
 import baksoKabisat from '@/assets/image/kabisat.jpeg';
 import Apresiasi from '@/assets/image/penghargaan.jpeg';
+import sosial from '@/assets/image/yatimpiatu.jpeg';
+import trainingDaikin from '@/assets/image/daikin1.jpeg';
 
 
 const socialActivities = [
@@ -73,11 +75,25 @@ const socialActivities = [
     colClass: 'col-lg-8 col-md-12' 
   },
   { 
-    title: 'Apresial dari PT Panasonic Gobel Indonesia', 
+    title: 'Apresiasi Sultan Ageng Tirtayasa (Untirta)', 
     category: 'Internal', 
     date: 'November 2025', 
     image: Apresiasi,
     colClass: 'col-lg-4 col-md-6' 
+  },
+  { 
+    title: 'Kegiatan Santunan Yatim Piatu', 
+    category: 'Internal', 
+    date: 'Kegiatan Tahunan', 
+    image: sosial,
+    colClass: 'col-lg-4 col-md-6' 
+  },
+  { 
+    title: 'Peresmian PT Daikin Indonesia dan Service Partner bersama mitra Daikin', 
+    category: 'Eksternal', 
+    date: '20 juni 2025', 
+    image: trainingDaikin,
+    colClass: 'col-lg-8 col-md-12' 
   }
 ];
 </script>

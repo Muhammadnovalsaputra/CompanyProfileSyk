@@ -3,7 +3,7 @@
     <div class="container py-5">
       <div class="text-center mb-5">
         <h2 class="fw-bold display-5">Dokumentasi <span class="text-warning">Proyek</span></h2>
-        <p class="text-muted">Beberapa hasil pengerjaan HVAC dan Maintenance oleh tim CV. Sinar Yafiq.</p>
+        <p class="text-white">Beberapa hasil pengerjaan HVAC dan Maintenance oleh tim CV. Sinar Yafiq.</p>
       </div>
 
       <div class="row justify-content-center">
@@ -42,6 +42,7 @@
       </div>
     </div>
   </section>
+  
 </template>
 
 <script setup>
@@ -52,6 +53,7 @@ import moya from '@/assets/image/dokumentasiMoya.png';
 import tkcm from '@/assets/image/dokumentasiTkcm.png';
 import furnilac from '@/assets/image/dokumentasiFurnilac.png';
 import gihon from '@/assets/image/dokumentasiGihon.png';
+import smartlab from '@/assets/image/smartlab.png';
 
 const projects = [
   { 
@@ -88,6 +90,11 @@ const projects = [
     title: 'Perbaikan AC', 
     location: 'PT Gihon Telekomunikasi Indonesia Tbk, Serpong Tangerang Selatan', 
     image: gihon
+  },
+  { 
+    title: 'Perawatan dan Perbaikan AC', 
+    location: 'PT Smartlab Indonesia, Cikokol Tangerang', 
+    image: smartlab
   }
 ];
 </script>
