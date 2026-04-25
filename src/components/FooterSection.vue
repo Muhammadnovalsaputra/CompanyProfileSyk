@@ -21,10 +21,18 @@
         <div class="col-lg-3 col-md-6">
           <h5 class="fw-bold text-white mb-4">Link Cepat</h5>
           <ul class="list-unstyled quick-links">
-            <li class="mb-2"><a href="#AboutSection" class="text-white-50 text-decoration-none">Beranda</a></li>
-            <li class="mb-2"><a href="#AboutSection" class="text-white-50 text-decoration-none">Tentang Kami</a></li>
-            <li class="mb-2"><a href="#legalitySection" class="text-white-50 text-decoration-none">Legalitas</a></li>
-            <li class="mb-2"><a href="#services-and-gallery" class="text-white-50 text-decoration-none">Service</a></li>
+            <li class="mb-2">
+              <router-link to="/" class="text-white-50 text-decoration-none">Beranda</router-link>
+            </li>
+            <li class="mb-2">
+              <router-link to="/about" class="text-white-50 text-decoration-none">Tentang Kami</router-link>
+            </li>
+            <li class="mb-2">
+              <router-link to="/legalitas" class="text-white-50 text-decoration-none">Legalitas</router-link>
+            </li>
+            <li class="mb-2">
+              <router-link to="/services" class="text-white-50 text-decoration-none">Service</router-link>
+            </li>
           </ul>
         </div>
 
@@ -52,7 +60,7 @@
       <hr class="border-light opacity-25 mb-4">
       <div class="text-center">
         <p class="text-white-50 small mb-0">
-          © 2026 CV. Sinar Yafiq Kamil Teknik. All rights reserved.
+          CV Sinar Yafiq Kamil Tehnik
         </p>
       </div>
     </div>

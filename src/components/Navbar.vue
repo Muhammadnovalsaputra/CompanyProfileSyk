@@ -13,19 +13,21 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto gap-lg-4 align-items-center">
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: activeSection === '#' }" href="#" @click="setActive('#')">Beranda</a>
+            <router-link to="/" class="nav-link" active-class="active">Beranda</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: activeSection === '#AboutSection' }" href="#AboutSection" @click="setActive('#AboutSection')">Tentang Kami</a>
+            <router-link to="/about" class="nav-link" active-class="active">Tentang Kami</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: activeSection === '#legalitySection' }" href="#legalitySection" @click="setActive('#legalitySection')">Legalitas</a>
+            <router-link to="/legalitas" class="nav-link" active-class="active">Legalitas</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :class="{ active: activeSection === '#service' }" href="#services-and-gallery" @click="setActive('#service')">Service</a>
+            <router-link to="/services" class="nav-link" active-class="active">Service</router-link>
           </li>
           <li class="nav-item">
-            <a class="btn btn-warning rounded-pill px-4 fw-bold shadow-sm" :class="{ 'btn-active': activeSection === '#contactSection' }" href="#contactSection" @click="setActive('#contactSection')">Kontak</a>
+            <router-link to="/contact" class="btn btn-warning rounded-pill px-4 fw-bold shadow-sm" active-class="btn-active">
+              Kontak
+            </router-link>
           </li>
         </ul>
       </div>
