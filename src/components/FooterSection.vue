@@ -9,10 +9,10 @@
             kenyamanan ruangan Anda dengan layanan berkualitas tinggi.
           </p>
           <div class="d-flex gap-3 social-links">
-            <a href="#" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+            <a href="https://wa.me/6287871066021" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
               <i class="bi bi-whatsapp"></i>
             </a>
-            <a href="#" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+            <a href="mailto:syktehnik@gmail.com" class="btn btn-outline-light rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
               <i class="bi bi-envelope"></i>
             </a>
           </div>
@@ -21,10 +21,10 @@
         <div class="col-lg-3 col-md-6">
           <h5 class="fw-bold text-white mb-4">Link Cepat</h5>
           <ul class="list-unstyled quick-links">
-            <li class="mb-2"><a href="#home" class="text-white-50 text-decoration-none">Home</a></li>
-            <li class="mb-2"><a href="#about" class="text-white-50 text-decoration-none">About Us</a></li>
-            <li class="mb-2"><a href="#legalitas" class="text-white-50 text-decoration-none">Legalitas</a></li>
-            <li class="mb-2"><a href="#service" class="text-white-50 text-decoration-none">Service</a></li>
+            <li class="mb-2"><a href="#AboutSection" class="text-white-50 text-decoration-none">Beranda</a></li>
+            <li class="mb-2"><a href="#AboutSection" class="text-white-50 text-decoration-none">Tentang Kami</a></li>
+            <li class="mb-2"><a href="#legalitySection" class="text-white-50 text-decoration-none">Legalitas</a></li>
+            <li class="mb-2"><a href="#services-and-gallery" class="text-white-50 text-decoration-none">Service</a></li>
           </ul>
         </div>
 

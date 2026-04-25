@@ -2,7 +2,7 @@
   <Navbar />
   <HeroSection />
   <AboutSection />
-  <OrganitationSection />
+  <OrganizationSection />
   <LegalitySection />
   <SafetySection />
   <ProjectSection />
@@ -17,7 +17,7 @@
 import Navbar from './components/Navbar.vue'
 import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
-import OrganitationSection from './components/OrganitationSection.vue'
+import OrganizationSection from './components/OrganizationSection.vue'
 import SafetySection from './components/SafetySection.vue'
 import LegalitySection from './components/LegalitySection.vue'
 import ProjectSection from './components/ProjectSection.vue'
