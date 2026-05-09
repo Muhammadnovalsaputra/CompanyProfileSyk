@@ -1,0 +1,9 @@
+RewriteEngine On
+# Jika file sitemap.xml ada secara fisik, ambil filenya langsung
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^sitemap\.xml$ - [L]
+
+# Aturan standar Vue Router untuk halaman lainnya
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
